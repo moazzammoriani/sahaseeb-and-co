@@ -4,7 +4,11 @@
 }
 
 header {
-    background-color: plum;
+    border-bottom: 1px solid grey;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+
 }
 
 
@@ -22,7 +26,6 @@ header {
 }
 
 .nav-container {
-    background-color: orange;
     margin: auto;
     display: flex;
     height: var(--header-height);
@@ -31,8 +34,8 @@ header {
 }
 
 nav {
+    color: blue;
     display: flex;
-    background-color: pink;
     align-items: center;
 }
 
@@ -40,4 +43,11 @@ nav {
     display: block;
     width: 90px;
     text-align: center;
+}
+
+.hero {
+    height: 800px;
+    background-image: url("./images/hero-img.jpg");
+    background-size: 1900px 800px;
+    background-repeat: no-repeat;
 }
