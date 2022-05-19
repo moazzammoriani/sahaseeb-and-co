@@ -1,53 +1,5 @@
-:root {
-    --header-height: 60px;
-    --header-desktop-width: 1170px;
-    --containers-padding: 50px;
-}
-
 html {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Header */
-header {
-    border-bottom: 1px solid rgb(196, 196, 196);
-    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-}
-
-#logo  {
-    width: 200px;
-}
-
-.nav-evener {
-    width: 200px;
-}
-
-.nav-container {
-    margin: auto;
-    display: flex;
-    height: var(--header-height);
-    max-width: var(--header-desktop-width);
-    justify-content: space-between;
-}
-
-nav {
-    color: rgb(71, 71, 255);
-    display: flex;
-    align-items: center;
-}
-
-.nav-btn {
-    display: block;
-    width: 90px;
-    text-align: center;
 }
 
 .hero {
@@ -64,13 +16,6 @@ nav {
     background-color: blue;
     left: 60.8%;
     top: 20%;
-}
-
-.container {
-    margin: auto;
-    max-width: var(--header-desktop-width);
-    border: 1px solid black;
-    padding: var(--containers-padding);
 }
 
 .our-services h2 {
@@ -91,5 +36,5 @@ nav {
 }
 
 .services div {
-    border: 1px solid blueviolet;
+    /*border: 1px solid blueviolet;*/
 }
