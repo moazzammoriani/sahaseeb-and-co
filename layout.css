@@ -60,6 +60,14 @@ nav {
     padding: var(--containers-padding);
 }
 
+p {
+    line-height: 1.3;
+}
+
+strong {
+    font-weight: bold;
+}
+
 footer {
     background-color: var(--grey);
     margin-bottom: -1;
