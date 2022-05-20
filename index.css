@@ -3,25 +3,30 @@ html {
 }
 
 .hero {
-    height: 800px;
+    height: 700px;
     background-image: url("./images/hero-img.jpg");
-    background-size: 1900px 800px;
+    background-size: cover;/*1900px 800px;*/
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .banner {
-    position: relative;
-    width: 400px;
-    height: 400px;
+    padding: var(--containers-padding);
+    width: 320px;
+    height: 320px;
     background-color: white;
-    left: 60.8%;
-    top: 20%;
 }
 
 h2 {
     text-align: center;
     font-size: 30px;
     margin-bottom: var(--containers-padding);
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .services {
