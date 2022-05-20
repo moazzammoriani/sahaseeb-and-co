@@ -8,13 +8,18 @@ html {
     background-size: cover;/*1900px 800px;*/
     background-repeat: no-repeat;
     background-position: center;
+    display: grid;
+    grid-template-columns: repeat(20, minmax(0,1fr));
+    grid-template-rows: repeat(20, minmax(0,1fr));
 }
 
 .banner {
     padding: var(--containers-padding);
-    width: 320px;
-    height: 320px;
     background-color: white;
+    grid-column: 13 / 18;
+    grid-row: 5 / 16;
+    width: 250px;
+
 }
 
 h2 {
@@ -44,7 +49,7 @@ h3 {
     /*border: 1px solid blueviolet;*/
 }
 
-.mission, .values {
+.mission-and-values {
     background-color: rgb(212, 212, 212);
 }
 
@@ -53,15 +58,9 @@ h3 {
     align-items: center;
 }
 
-.mission .container {
+.mission-and-values .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--containers-padding);
-}
-
-.values .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--containers-padding);
 }
 
