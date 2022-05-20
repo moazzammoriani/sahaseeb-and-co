@@ -60,6 +60,10 @@ nav {
     padding: var(--containers-padding);
 }
 
+.page-cover {
+    height: 400px;
+}
+
 p {
     line-height: 1.3;
 }
