@@ -1,9 +1,9 @@
 /* Header */
 header {
     border-bottom: 1px solid rgb(196, 196, 196);
-    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+    /*-webkit-box-shadow: 0 10px 10px -5px;
+    -moz-box-shadow: 0 10px 10px -5px;*/
+    box-shadow: 0 7px 7px -10px;
 }
 
 .logo-container {
@@ -50,6 +50,10 @@ nav {
     cursor: pointer;
 }
 
+.breadcrumbs h1{
+    text-align: left;
+}
+
 .container {
     margin: auto;
     max-width: var(--header-desktop-width);
@@ -58,6 +62,7 @@ nav {
 
 footer {
     background-color: var(--grey);
+    margin-bottom: -1;
 }
 
 .footer-logo-container {
