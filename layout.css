@@ -30,13 +30,24 @@ header {
 nav {
     color: rgb(71, 71, 255);
     display: flex;
-    align-items: center;
 }
 
 .nav-btn {
+    text-decoration: none;
     display: block;
-    width: 90px;
+    width: 100px;
     text-align: center;
+    line-height: var(--header-height);
+}
+
+.nav-btn:visited {
+    color: rgb(71, 71, 255);
+
+}
+
+.nav-btn:hover {
+    border-bottom: 5px solid rgb(71, 71, 255);
+    cursor: pointer;
 }
 
 .container {
@@ -46,7 +57,7 @@ nav {
 }
 
 footer {
-    background-color: rgb(212, 212, 212);
+    background-color: var(--grey);
 }
 
 .footer-logo-container {

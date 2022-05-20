@@ -2,4 +2,8 @@
     --header-height: 60px;
     --header-desktop-width: 1170px;
     --containers-padding: 50px;
+
+    /* colors */
+    --grey: rgb(242, 242, 242);
+    --blue: #54c0f0;
 }

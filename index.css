@@ -50,7 +50,7 @@ h3 {
 }
 
 .mission-and-values {
-    background-color: rgb(212, 212, 212);
+    background-color: var(--grey);
 }
 
 .mission-and-values-text {
@@ -67,4 +67,17 @@ h3 {
 .mission-and-values-img {
     width: 510px;
     display: block;
+}
+
+.quote {
+    background-color: var(--blue);
+}
+
+.quote .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.actual-quote {
+    font-size: 27px;
 }
