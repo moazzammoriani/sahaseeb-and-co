@@ -1,8 +1,19 @@
-/* Header */
+/* Some text formatting */
+
+p {
+    line-height: 1.3;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* All that is related to the header */
+
 header {
     border-bottom: 1px solid rgb(196, 196, 196);
-    /*-webkit-box-shadow: 0 10px 10px -5px;
-    -moz-box-shadow: 0 10px 10px -5px;*/
+    -webkit-box-shadow: 0 7px 7px -10px;
+    -moz-box-shadow: 0 7px 7px -10px;
     box-shadow: 0 7px 7px -10px;
 }
 
@@ -50,10 +61,13 @@ nav {
     cursor: pointer;
 }
 
+/* Styles for the breadcrumbs element on every page except home */
+
 .breadcrumbs h1{
     text-align: left;
 }
 
+/* Generic styles to avoid repitiion */
 .container {
     margin: auto;
     max-width: var(--header-desktop-width);
@@ -64,13 +78,7 @@ nav {
     height: 400px;
 }
 
-p {
-    line-height: 1.3;
-}
-
-strong {
-    font-weight: bold;
-}
+/* All that is related to the footer */
 
 footer {
     background-color: var(--grey);
