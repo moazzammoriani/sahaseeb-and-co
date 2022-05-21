@@ -46,6 +46,10 @@ h1 {
     gap: var(--containers-padding);
 }
 
+.services button {
+    margin-top: 10px;
+}
+
 h3 {
     font-size: 22px;
     margin-bottom: calc(var(--containers-padding) / 2);
