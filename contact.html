@@ -31,18 +31,28 @@
     </section>
     <section class="our-services">
         <div class="container">
-            <h2>Our Services</h2>
-            <div class="services">
-                <div>
-                    <h3><strong>Sed ut perspiciatis</strong></h3>
-                    <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                        nesciunt. Neque porro quisquam est.
-                    </p>
-                    <button>Learn more</button>
-                </div>
-            </div>
+            <form action="https://formspree.io/f/{form_id}" method="post">
+                <ul>
+                    <li>
+                        <!--Email-->
+                        <label for="email">Email</label>
+                        <input name="Email" id="email" type="email">
+                    </li>
+                    <li>
+                        <!--Subject-->
+                        <label for="subject">Subject</label>
+                        <input name="Subject" id="subject" type="text">
+                    </li>
+                    <li>
+                        <!--Message-->
+                        <label for="message">Message</label>
+                        <textarea name="Message" id="message"></textarea>
+                    </li>
+                    <li class="button-container">
+                        <button type="submit">Submit</button>
+                    </li>
+                </ul>
+            </form>        
         </div>
     </section>
     <footer>
