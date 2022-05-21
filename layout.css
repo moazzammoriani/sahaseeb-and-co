@@ -78,6 +78,22 @@ nav {
     height: 400px;
 }
 
+button {
+    border: 1px solid blue;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: white;
+    color: blue;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+
+}
+
 /* All that is related to the footer */
 
 footer {

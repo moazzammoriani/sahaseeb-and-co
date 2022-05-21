@@ -19,7 +19,13 @@ html {
     grid-column: 13 / 18;
     grid-row: 5 / 16;
     width: 250px;
+    height: 270px;
 
+}
+
+.banner-button-container {
+    text-align: center;
+    margin-top: 50px;
 }
 
 h2 {
