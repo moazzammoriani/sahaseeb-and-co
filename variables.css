@@ -2,6 +2,7 @@
     --header-height: 60px;
     --header-desktop-width: 1170px;
     --containers-padding: 50px;
+    --generic-containers-width: auto;
 
     /* colors */
     --grey: rgb(242, 242, 242);
