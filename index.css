@@ -103,11 +103,6 @@ h3 {
         display: none;
     }
 
-    .container {
-        padding: var(--containers-padding) 0;
-        width: var(--generic-containers-width);
-    }
-
     .mission-and-values-img {
         width: var(--generic-containers-width);
     }
@@ -124,22 +119,5 @@ h3 {
     .mission-and-values-img {
         grid-row: 1;
     }
-
 }
 
-
-@media screen and (max-width: 750px) {
-    :root {
-        --generic-containers-width: 600px
-    }
-
-    .container {
-        width: var(--generic-containers-width);
-    }
-}
-
-@media screen and (max-width: 650px) {
-    :root {
-        --generic-containers-width: 500px
-    }
-}

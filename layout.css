@@ -38,9 +38,27 @@ header {
     justify-content: space-between;
 }
 
+.mobile-nav-container {
+    justify-content: space-between;
+
+}
+
 nav {
     color: rgb(71, 71, 255);
     display: flex;
+}
+
+.mobile-nav {
+    padding: 10px;
+    font-size: 50px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu-display {
+    display: block;
 }
 
 .nav-btn {
@@ -49,6 +67,21 @@ nav {
     width: 100px;
     text-align: center;
     line-height: var(--header-height);
+}
+
+.mobile-nav-btn {
+    display: block;
+    height:40px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.fa-bars {
+    width: 50px;
+}
+
+.remove-a {
+    display: none;
 }
 
 .nav-btn:visited {
