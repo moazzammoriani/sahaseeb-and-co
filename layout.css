@@ -167,6 +167,10 @@ footer .copyright {
     :root {
         --generic-containers-width: 650px
     }
+
+    .nav-btn {
+        display:none;
+    }
 }
 
 @media screen and (max-width: 725px) {
@@ -190,5 +194,89 @@ footer .copyright {
 @media screen and (max-width: 650px) {
     :root {
         --generic-containers-width: 550px
+    }
+}
+
+@media screen and (max-width: 625px) {
+    :root {
+        --generic-containers-width: 575px
+    }
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        --generic-containers-width: 550px
+    }
+}
+
+@media screen and (max-width: 575px) {
+    :root {
+        --generic-containers-width: 525px
+    }
+}
+
+@media screen and (max-width: 550px) {
+    :root {
+        --generic-containers-width: 500px
+    }
+}
+
+@media screen and (max-width: 525px) {
+    :root {
+        --generic-containers-width: 475px
+    }
+}
+
+@media screen and (max-width: 500px) {
+    :root {
+        --generic-containers-width: 450px
+    }
+}
+
+@media screen and (max-width: 475px) {
+    :root {
+        --generic-containers-width: 425px
+    }
+}
+
+@media screen and (max-width: 450px) {
+    :root {
+        --generic-containers-width: 400px
+    }
+}
+
+@media screen and (max-width: 425px) {
+    :root {
+        --generic-containers-width: 375px
+    }
+}
+
+@media screen and (max-width: 400px) {
+    :root {
+        --generic-containers-width: 350px
+    }
+}
+
+@media screen and (max-width: 375px) {
+    :root {
+        --generic-containers-width: 325px
+    }
+}
+
+@media screen and (max-width: 350px) {
+    :root {
+        --generic-containers-width: 300px
+    }
+}
+
+@media screen and (max-width: 325px) {
+    :root {
+        --generic-containers-width: 275px
+    }
+}
+
+@media screen and (max-width: 300px) {
+    :root {
+        --generic-containers-width: 260px
     }
 }
