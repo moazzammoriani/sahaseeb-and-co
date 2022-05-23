@@ -213,6 +213,7 @@ footer .copyright {
     :root {
         --generic-containers-width: 525px
     }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -237,6 +238,10 @@ footer .copyright {
     :root {
         --generic-containers-width: 425px
     }
+
+    .hero {
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -255,6 +260,7 @@ footer .copyright {
     :root {
         --generic-containers-width: 350px
     }
+
 }
 
 @media screen and (max-width: 375px) {

@@ -71,6 +71,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: var(--containers-padding);
+    place-items: center;
 }
 
 .mission-and-values-img {
