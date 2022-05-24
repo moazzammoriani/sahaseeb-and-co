@@ -1,3 +1,9 @@
+.contact-cover {
+    background: url("images/contact.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 form {
     margin: auto;
     max-width: 800px;
