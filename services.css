@@ -3,3 +3,7 @@
     background-position: center;
     background-size: cover;
 }
+
+h4 {
+    margin-bottom: calc(var(--containers-padding) / 2);
+}
