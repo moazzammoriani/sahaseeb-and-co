@@ -54,8 +54,8 @@ h3 {
     margin-bottom: calc(var(--containers-padding) / 2);
 }
 
-.services div {
-    /*border: 1px solid blueviolet;*/
+.services article {
+    height: 180px;
 }
 
 .mission-and-values {

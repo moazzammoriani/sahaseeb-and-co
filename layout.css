@@ -165,6 +165,19 @@ footer .copyright {
     color: rgb(126, 126, 126);
 }
 
+#in-btn {
+    font-size: 20px;
+    color: blue;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+#in-btn:hover {
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+}
+
 @media screen and (max-width: 920px) {
     .container {
         padding: var(--containers-padding) 0;
