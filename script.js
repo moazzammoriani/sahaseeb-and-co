@@ -1,5 +1,6 @@
 let mediaMaxWidth750px = window.matchMedia("(max-width: 750px)");
 let bars = document.querySelector(".fa-bars");
+let mobileNavOpen = false;
 
 function makeMobileNav() {
     let screenWidthLessThan750px = mediaMaxWidth750px.matches;
@@ -28,7 +29,52 @@ function makeMobileNav() {
 
 function toggleMenu() {
     let mobileMenu = document.querySelector(".mobile-menu");
+    let mobileNavBtns = document.querySelectorAll(".mobile-nav-btn");
+
     mobileMenu.classList.toggle("mobile-menu-display");
+
+    for (let i = 0; i < mobileNavBtns.length; i++) {
+        mobileNavBtns[i].classList.toggle("mobile-nav-btn-display");
+    }
+
+    mobileNavOpen = !mobileNavOpen;
+
+    function isNonMenuItemClicked(elem) {
+        let isMenuItem = true; 
+           
+        for (let i = 0; i < mobileNavBtns.length; i++) {
+            if (mobileNavBtns[i] == elem) {
+                return false;
+            }
+        }
+        
+        if (elem == mobileMenu) {
+            return false;
+        }
+
+        if (elem == bars) {
+            return false;
+        }
+
+        return true;
+    }
+
+
+    function collapseMenuIfNonMenuItemClicked(event) {
+        let target = event.target;
+        console.log(target);
+
+        console.log(`isNonMenuItemClicked(target) = ${isNonMenuItemClicked(target)}`)
+        console.log(`target != undefined: ${target != undefined}`);
+        if (isNonMenuItemClicked(target) && target != undefined) {
+             toggleMenu()
+             window.removeEventListener("click", collapseMenuIfNonMenuItemClicked);
+        }
+    }
+
+    if (mobileNavOpen) {
+        window.addEventListener("click", collapseMenuIfNonMenuItemClicked);
+    }
 
 }
 

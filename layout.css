@@ -74,11 +74,12 @@ nav {
 }
 
 .mobile-menu {
-    display: none;
+    height: 0px;
+    transition: height 0.2s;
 }
 
 .mobile-menu-display {
-    display: block;
+    height: 120px;
 }
 
 .nav-btn {
@@ -90,10 +91,19 @@ nav {
 }
 
 .mobile-nav-btn {
+    text-decoration: none;
     display: block;
-    height:40px;
-    font-size: 20px;
+    height:0px;
+    font-size: 0px;
     line-height: 40px;
+    transition: height 0.2s;
+    color: blue;
+}
+
+.mobile-nav-btn-display {
+    font-size: 20px;
+    height: 40px;
+
 }
 
 .fa-bars {
