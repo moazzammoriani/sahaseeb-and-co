@@ -62,10 +62,7 @@ function toggleMenu() {
 
     function collapseMenuIfNonMenuItemClicked(event) {
         let target = event.target;
-        console.log(target);
 
-        console.log(`isNonMenuItemClicked(target) = ${isNonMenuItemClicked(target)}`)
-        console.log(`target != undefined: ${target != undefined}`);
         if (isNonMenuItemClicked(target) && target != undefined) {
              toggleMenu()
              window.removeEventListener("click", collapseMenuIfNonMenuItemClicked);

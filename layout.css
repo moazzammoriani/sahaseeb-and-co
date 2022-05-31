@@ -75,7 +75,7 @@ nav {
 
 .mobile-menu {
     height: 0px;
-    transition: height 0.2s;
+    transition: height 0.4s ease-in-out;
 }
 
 .mobile-menu-display {
@@ -93,16 +93,18 @@ nav {
 .mobile-nav-btn {
     text-decoration: none;
     display: block;
+    opacity: 0;
     height:0px;
     font-size: 0px;
     line-height: 40px;
-    transition: height 0.2s;
+    transition: height 0.4s ease-in-out, opacity 0.3s ease-in-out;
     color: blue;
 }
 
 .mobile-nav-btn-display {
     font-size: 20px;
     height: 40px;
+    opacity: 1;
 
 }
 
